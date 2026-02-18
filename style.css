@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+#word {
+    font-size: 32px;
+    margin: 20px 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ab">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alias Абхазский</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Alias на абхазском</h1>
+
+        <!-- Настройка команд -->
+        <div id="setup">
+            <label>Команда 1: <input type="text" id="team1" value="Команда 1"></label><br>
+            <label>Команда 2: <input type="text" id="team2" value="Команда 2"></label><br>
+            <button id="startGame">Халагап!</button>
+        </div>
+
+        <!-- Игра -->
+        <div id="game" style="display:none;">
+            <h2 id="currentTeam"></h2>
+            <p>Время: <span id="timer">60</span> секунд</p>
+            <h3 id="word"></h3>
+            <button id="guessed">Еилкаауп ✅</button>
+            <button id="skip">Абжьажьра ⏩</button>
+            <div id="score">
+                <p id="score1"></p>
+                <p id="score2"></p>
+            </div>
+        </div>
+
+        <!-- Конец игры -->
+        <div id="end" style="display:none;">
+            <h2>Игра окончена!</h2>
+            <p id="winner"></p>
+            <button id="restart">Начать заново</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
